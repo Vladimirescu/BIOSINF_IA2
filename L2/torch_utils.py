@@ -4,7 +4,12 @@ from tqdm import tqdm
 import os
 
 
-def iterate(model, dataloader, optimizer, loss_fn, is_training=True, device='cuda'):
+def iterate(model, 
+            dataloader, 
+            optimizer, 
+            loss_fn, 
+            is_training=True, 
+            device='cuda'):
     """
     Single-iteration function, either for training or for testing.
     Iterates over dataloader and computes avg_loss and accuracy, in a classification setting.
@@ -52,7 +57,16 @@ def iterate(model, dataloader, optimizer, loss_fn, is_training=True, device='cud
     return avg_loss, accuracy
 
 
-def train_loop(model, train_loader, optimizer, loss, epochs, test_loader=None, device="cpu", folder_path=None, file_name=None, print_frequency=1):
+def train_loop(model, 
+               train_loader, 
+               optimizer, 
+               loss, 
+               epochs, 
+               test_loader=None, 
+               device="cpu", 
+               folder_path=None, 
+               file_name=None, 
+               print_frequency=1):
     """
     Train loop functionality, for iterating, saving and (optional) loading pretrained model.
     """
@@ -62,8 +76,6 @@ def train_loop(model, train_loader, optimizer, loss, epochs, test_loader=None, d
     best_loss = torch.inf
     model = model.to(device)
     
-    # Define root folder and file_name for saving
-
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
     else:
