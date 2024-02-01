@@ -3,6 +3,39 @@ import numpy as np
 import torch
 
 
+def generate_toy_signal(batch_size, frequencies, amplitudes, phases, signal_length=256):
+
+    data_1d = torch.zeros(batch_size, len(frequencies), signal_length)
+
+    for i in range(len(frequencies)):
+        t = torch.linspace(0, 2 * 3.1415, signal_length)
+        channel_signal = amplitudes[i] * torch.sin(2 * 3.1415 * frequencies[i] * t + phases[i])
+        data_1d[0, i, :] = channel_signal
+
+    return data_1d
+
+
+def plot_channels(signal):
+    """
+    Plot each channel of the signal in a single plot with different y-axis offsets.
+    
+    Args:
+    - signal (torch.Tensor): Input signal tensor of shape (1, num_channels, time).
+    """
+    # Get the number of channels and time steps
+    num_channels, time = signal.shape[1], signal.shape[2]
+
+    offsets = []
+    for i in range(num_channels):
+        offset = i * 2.0
+        offsets.append(offset)
+
+        plt.plot(range(time), signal[0, i, :] + offset)
+    
+    plt.xlabel('Samples')
+    plt.yticks(offsets, labels=[f"Channel {i}" for i in range(len(offsets))])
+
+
 def plot_random_images(image_dataset, idx_to_class, rows=1, columns=5):
     """
     Plot random images from an image dataset.
