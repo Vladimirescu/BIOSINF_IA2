@@ -9,7 +9,7 @@ def generate_toy_signal(batch_size, frequencies, amplitudes, phases, signal_leng
 
     for i in range(len(frequencies)):
         t = torch.linspace(0, 2 * 3.1415, signal_length)
-        channel_signal = amplitudes[i] * torch.sin(2 * 3.1415 * frequencies[i] * t + phases[i])
+        channel_signal = amplitudes[i] * torch.sin(2 * 3.1415 * frequencies[i] * t + phases[i]) + torch.randn(signal_length) * amplitudes[i] / 5
         data_1d[0, i, :] = channel_signal
 
     return data_1d
