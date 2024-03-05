@@ -34,7 +34,7 @@ We'll be available for discussions regarding the status of your project every Fr
 
 | **Name** | **Date** |
 |:-------:|:--------:|
-|  Lab Homework(s) Submission  |  26.05  |
+|  Lab Homework(s) Submission Deadline  |  26.05  |
 |  Project Submission Deadline  |  29.05  |
 |  Project Presentations  |  30.05 & 31.05  |
 ___
