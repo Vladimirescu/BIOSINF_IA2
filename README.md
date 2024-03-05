@@ -26,8 +26,16 @@ This repository will contain all lectures, labs and project resources, code temp
 
 ## Project:
 
-The requirements for completing your practical project, along with a list of available projects can be found [here](Project_IA2.pdf).
+The requirements for completing your practical project, along with a list of available projects can be found [here](Project_IA2.pdf). 
+We'll be available for discussions regarding the status of your project every Friday 17:00-19:00.
 
+## Important dates:
+
+| **Name** | **Date** |
+|:-------:|:--------:|
+|  Lab Homework Submission  |  26.05  |
+|  Project Submission Deadline  |  29.05  |
+|  Project Presentations  |  30.05 & 31.05  |
 ___
 
 Contact us if you have any questions via [ana_antonia.neacsu@upb.ro], [vlad.vasilescu2111@upb.ro], or by Teams chat.
