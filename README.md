@@ -3,7 +3,7 @@ ___
 
 This repository will contain all lectures, labs and project resources, code templates and (maybe) some solutions.
 
-**Courses** programme:
+**Courses** schedule:
 
 | **Nr.** | **Date** |       **Topic**       | **Materials** |
 |:-------:|:--------:|:---------------------:|:-------------:|
@@ -14,7 +14,7 @@ This repository will contain all lectures, labs and project resources, code temp
 |    5    |   9.05   |_Recurrent Neural Networks_|               |
 |    6    |   23.05  |_Applications_ |               |
 
-**Labs** programme:
+**Labs** schedule:
 
 | **Nr.** | **Date** |        **Topic**        | **Materials** |
 |:-------:|:--------:|:-----------------------:|:-------------:|
