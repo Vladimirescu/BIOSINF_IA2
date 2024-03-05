@@ -12,7 +12,7 @@ This repository will contain all lectures, labs and project resources, code temp
 |    3    |   11.04  |                       |               |
 |    4    |   25.04  |                       |               |
 |    5    |   9.05   |                       |               |
-|    5    |   23.05  |                       |               |
+|    6    |   23.05  |                       |               |
 
 **Labs** programme:
 
