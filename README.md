@@ -28,7 +28,7 @@ This repository will contain all lectures, labs and project resources, code temp
 ## Project:
 
 The requirements for completing your practical project, along with a list of available projects can be found [here](Project_IA2.pdf). 
-We'll be available for discussions regarding the status of your project every Friday 17:00-19:00.
+We'll be available for discussions regarding the status of your project every Friday 17:00-18:00.
 
 ## Important dates:
 
