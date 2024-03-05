@@ -9,20 +9,20 @@ This repository will contain all lectures, labs and project resources, code temp
 |:-------:|:--------:|:---------------------:|:-------------:|
 |    1    |   14.03  |  _Intro & AI Ethics_  |   [slides](course/C1%20-%20Intro&Ethics.pdf)           |
 |    2    |   28.03  | _Optimization Basics_ |   [slides](course/C2%20-%20LinearNets.pdf)            |
-|    3    |   11.04  |                       |               |
-|    4    |   25.04  |                       |               |
-|    5    |   9.05   |                       |               |
-|    6    |   23.05  |                       |               |
+|    3    |   11.04  | _Dense Neural Networks_ |               |
+|    4    |   25.04  | _Convolutional Neural Networks_|               |
+|    5    |   9.05   |_Recurrent Neural Networks_|               |
+|    6    |   23.05  |_Applications_ |               |
 
 **Labs** programme:
 
 | **Nr.** | **Date** |        **Topic**        | **Materials** |
 |:-------:|:--------:|:-----------------------:|:-------------:|
-|    1    |   21.03  | _Dense Neural Networks_ |   [notebook](L1/fully_connected.ipynb)            |
+|    1    |   21.03  |           _DNNs_        |   [notebook](L1/fully_connected.ipynb)            |
 |    2    |   4.04   |       _CNNs Intro_      |   [notebook](L2/conv_classification.ipynb)            |
-|    3    |   18.04  |   Applications of CNNs  |   [notebook1](L3/object_localization.ipynb), [notebook2](L3/speaker_separation.ipynb)            |
+|    3    |   18.04  | _Applications of CNNs_  |   [notebook1](L3/object_localization.ipynb), [notebook2](L3/speaker_separation.ipynb)            |
 |    4    |   2.05   |         `easter`        |               |
-|    5    |   16.05  |           RNNs          |               |
+|    5    |   16.05  |         _RNNs_          |               |
 
 ## Project:
 
