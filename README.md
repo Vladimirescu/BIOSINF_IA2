@@ -3,7 +3,7 @@ ___
 
 This repository will contain all lectures, labs and project resources, code templates and (maybe) some solutions.
 
-**Courses** programme:
+**Courses** schedule:
 
 | **Nr.** | **Date** |       **Topic**       | **Materials** |
 |:-------:|:--------:|:---------------------:|:-------------:|
@@ -14,27 +14,27 @@ This repository will contain all lectures, labs and project resources, code temp
 |    5    |   9.05   |_Recurrent Neural Networks_|               |
 |    6    |   23.05  |_Applications_ |               |
 
-**Labs** programme:
+**Labs** schedule:
 
 | **Nr.** | **Date** |        **Topic**        | **Materials** |
 |:-------:|:--------:|:-----------------------:|:-------------:|
 |    0    |    -     |     _Lab Setup Guide_   |               |
 |    1    |   21.03  |           _DNNs_        |   [notebook](L1/fully_connected.ipynb)            |
-|    2    |   4.04   |       _CNNs Intro_      |   [notebook](L2/conv_classification.ipynb)            |
-|    3    |   18.04  | _Applications of CNNs_  |   [notebook1](L3/object_localization.ipynb), [notebook2](L3/speaker_separation.ipynb)            |
+|    2    |   4.04   |           _CNNs_      |   [notebook](L2/conv_classification.ipynb)            |
+|    3    |   18.04  | _Other Applications of CNNs_  |   [notebook1](L3/object_localization.ipynb), [notebook2](L3/speaker_separation.ipynb)            |
 |    4    |   2.05   |         `easter`        |               |
 |    5    |   16.05  |         _RNNs_          |               |
 
 ## Project:
 
 The requirements for completing your practical project, along with a list of available projects can be found [here](Project_IA2.pdf). 
-We'll be available for discussions regarding the status of your project every Friday 17:00-19:00.
+We'll be available for discussions regarding the status of your project every Friday 17:00-18:00.
 
 ## Important dates:
 
 | **Name** | **Date** |
 |:-------:|:--------:|
-|  Lab Homework Submission  |  26.05  |
+|  Lab Homework(s) Submission Deadline  |  26.05  |
 |  Project Submission Deadline  |  29.05  |
 |  Project Presentations  |  30.05 & 31.05  |
 ___
