@@ -23,7 +23,7 @@ This repository will contain all lectures, labs and project resources, code temp
 |    1    |   21.03  |           _DNNs_        |   [notebook](L1/fully_connected.ipynb)            |
 |    2    |   4.04   |           _CNNs_      |   [notebook](L2/conv_classification.ipynb)            |
 |    3    |   18.04  | _Other Applications of CNNs_  |   [notebook1](L3/object_localization.ipynb), [notebook2](L3/speaker_separation.ipynb)            |
-|    4    |   2.05   |         `easter`        |               |
+|    4    |   2.05   |         `Easter`        |               |
 |    5    |   16.05  |         _RNNs_          |               |
 
 ## Project:
@@ -41,3 +41,11 @@ We'll be available for discussions regarding the status of your project every Fr
 ___
 
 Contact us if you have any questions via [ana_antonia.neacsu@upb.ro], [vlad.vasilescu2111@upb.ro], or by Teams chat.
+
+___
+
+## Recommended References:
+- [Convex Optimization – Boyd and Vandenberghe](https://stanford.edu/~boyd/cvxbook/)
+- [MIT Deep Learning Book - Ian Goodfellow, Yoshua Bengio and Aaron Courville](https://github.com/janishar/mit-deep-learning-book-pdf)
+- [Neural Networks and Deep Learning - A Textbook](https://www.charuaggarwal.net/neural.htm)
+- [Awesome Deep Learning - A curated list of awesome Deep Learning tutorials and projects](https://github.com/ChristosChristofidis/awesome-deep-learning)
