@@ -23,7 +23,7 @@ This repository will contain all lectures, labs and project resources, code temp
 |    1    |   21.03  |           _DNNs_        |   [notebook](L1/fully_connected.ipynb)            |
 |    2    |   4.04   |           _CNNs_      |   [notebook](L2/conv_classification.ipynb)            |
 |    3    |   18.04  | _Other Applications of CNNs_  |   [notebook1](L3/object_localization.ipynb), [notebook2](L3/speaker_separation.ipynb)            |
-|    4    |   2.05   |         `easter`        |               |
+|    4    |   2.05   |         `Easter`        |               |
 |    5    |   16.05  |         _RNNs_          |               |
 
 ## Project:
