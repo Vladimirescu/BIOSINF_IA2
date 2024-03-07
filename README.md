@@ -46,6 +46,7 @@ ___
 
 ## Recommended References:
 - [Convex Optimization – Boyd and Vandenberghe](https://stanford.edu/~boyd/cvxbook/)
+- [Berkley Convex Optimization and Approximation course](https://ee227c.github.io)
 - [MIT Deep Learning Book - Ian Goodfellow, Yoshua Bengio and Aaron Courville](https://github.com/janishar/mit-deep-learning-book-pdf)
 - [Neural Networks and Deep Learning - A Textbook](https://www.charuaggarwal.net/neural.htm)
 - [Awesome Deep Learning - A curated list of awesome Deep Learning tutorials and projects](https://github.com/ChristosChristofidis/awesome-deep-learning)
