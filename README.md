@@ -19,7 +19,7 @@ This repository will contain all lectures, labs and project resources, code temp
 
 | **Nr.** | **Date** |        **Topic**        | **Materials** |
 |:-------:|:--------:|:-----------------------:|:-------------:|
-|    0    |    -     |     _Lab Setup Guide_   |   [guide + requirements](lab_setup/) |
+|    0    |    -     |     _Lab Setup Guide_   |   [guide + requirements]([lab_setup/](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/lab_setup)) |
 |    1    |   21.03  |           _DNNs_        |   [notebook](L1/fully_connected.ipynb)            |
 |    2    |   4.04   |           _CNNs_      |   [notebook](L2/conv_classification.ipynb)            |
 |    3    |   18.04  | _Other Applications of CNNs_  |   [notebook1](L3/object_localization.ipynb), [notebook2](L3/speaker_separation.ipynb) ($\color{red} \text{In Progress..}$)           |
