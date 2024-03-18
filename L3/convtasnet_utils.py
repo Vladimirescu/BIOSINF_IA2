@@ -45,7 +45,7 @@ def overlap_and_add(signal, frame_step):
     subframe_signal = signal.view(*outer_dimensions, -1, subframe_length)
 
     frame = torch.arange(0, output_subframes).unfold(0, subframes_per_frame, subframe_step)
-    frame = signal.new_tensor(frame).long()  # signal may in GPU or CPU
+    frame = signal.new_tensor(frame).long()  
     frame = frame.contiguous().view(-1)
 
     result = signal.new_zeros(*outer_dimensions, output_subframes, subframe_length)
