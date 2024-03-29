@@ -22,7 +22,7 @@ class CustomLinear(nn.Module):
             self.bias = nn.Parameter(torch.randn(out_size))
         else:
             self.register_parameter('bias', None)
-
+        
     def forward(self, x):
         if self.bias is not None:
             return torch.matmul(x, self.W.t()) + self.bias
