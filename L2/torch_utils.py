@@ -101,7 +101,7 @@ def train_loop(model,
         if train_loss < best_loss:
             best_loss = train_loss
     
-            checkpoint = {'state_dict': model.state_dict(),'optimizer' :optimizer.state_dict()}
+            checkpoint = {'state_dict': model.state_dict(),'optimizer': optimizer.state_dict()}
             torch.save(checkpoint, os.path.join(folder_path, file_name))
         
         if e % print_frequency == 0:
