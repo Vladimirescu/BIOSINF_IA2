@@ -35,8 +35,8 @@ def overlap_and_add(signal, frame_step):
     """
     outer_dimensions = signal.size()[:-2]
     frames, frame_length = signal.size()[-2:]
-
-    subframe_length = math.gcd(frame_length, frame_step)  # gcd=Greatest Common Divisor
+    
+    subframe_length = math.gcd(frame_length, frame_step)  
     subframe_step = frame_step // subframe_length
     subframes_per_frame = frame_length // subframe_length
     output_size = frame_step * (frames - 1) + frame_length
@@ -44,7 +44,7 @@ def overlap_and_add(signal, frame_step):
 
     subframe_signal = signal.view(*outer_dimensions, -1, subframe_length)
 
-    frame = torch.arange(0, output_subframes).unfold(0, subframes_per_frame, subframe_step)
+    frame = torch.arange(0, output_subframes).unfold(0, subframes_per_frame, subframe_step).to(signal.device)
     frame = signal.new_tensor(frame).long()  
     frame = frame.contiguous().view(-1)
 

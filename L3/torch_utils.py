@@ -26,7 +26,17 @@ def iterate(model,
     total_samples = 0
 
     for inputs, labels in tqdm(dataloader):
-        inputs, labels = inputs.to(device), labels.to(device)
+        if isinstance(inputs, list):
+            for i in range(len(inputs)):
+                inputs[i] = inputs[i].to(device)
+        else:
+            inputs = inputs.to(device)
+        
+        if isinstance(labels, list):
+            for i in range(len(labels)):
+                labels[i] = labels[i].to(device)
+        else:
+            labels = labels.to(device)
 
         # Forward pass
         outputs = model(inputs)
@@ -89,7 +99,7 @@ def train_loop(model,
                 test_loss = iterate(model, test_loader, optimizer, loss, is_training=False, device=device)
             test_losses.append(test_loss)
         else:
-            test_loss, test_acc = None, None
+            test_loss = None
         
         if train_loss < best_loss:
             print(f"Train loss improved from {best_loss} to {train_loss}. Overwriting...")
