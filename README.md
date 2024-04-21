@@ -22,14 +22,24 @@ This repository will contain all lectures, labs and project resources, code temp
 |    0    |    -     |     _Lab Setup Guide_   |   [guide + requirements](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/lab_setup) |
 |    1    |   21.03  |           _DNNs_        |   [notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L1)            |
 |    2    |   4.04   |           _CNNs_      |   [notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L2)            |
-|    3    |   18.04  | _Other Applications of CNNs_  |   [2 x notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L3) ($\color{red} \text{In Progress..}$)           |
+|    3    |   18.04  | _Other Applications of CNNs_  |   [2 x notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L3)           |
 |    4    |   2.05   |         `Easter`        |               |
-|    5    |   16.05  |         _RNNs_          |               |
+|    5    |   16.05  |         _RNNs_          |       $\color{red} \text{In Progress..}$        |
 
 ## Project:
 
 The requirements for completing your practical project, along with a list of available projects can be found [here](Project_IA2.pdf). 
 We'll be available for discussions regarding the status of your project every Friday 17:00-18:00.
+
+### General Rules for Lab Homeworks:
+1. Each homework should be handed as a single Jupyter Notebook, containing your code, results and explanations
+2. You **should not** create the homework notebook by continuing the lab notebook 
+3. Any external files used throughout the notebook should be placed in a .zip archive, along with the main notebook
+4. Do not include any datasets in the archive -- all homeworks are based on the datasets discussed at lab, therefore it is
+recommended to use the already defined `torch.utils.data.Dataset` with the appropriate path of your dataset folder
+5. **One should be able to run the homework notebook without any effort. Please make sure you include in your archive any 
+local dependencies related to your notebook, as well as all neccessary ```!pip install ...``` if you use
+additional packages not included in the ```lab_setup/requirements.txt```**
 
 ## Important dates:
 

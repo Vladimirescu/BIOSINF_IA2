@@ -170,7 +170,7 @@ def chose_norm(norm_type, channel_size):
     elif norm_type == "cLN":
         return ChannelwiseLayerNorm(channel_size)
     else: # norm_type == "BN":
-        # Given input (M, C, K), nn.BatchNorm1d(C) will accumulate statics
+        # Given input (B, C, K), nn.BatchNorm1d(C) will accumulate statics
         # along M and K, so this BN usage is right.
         return nn.BatchNorm1d(channel_size)
 
@@ -194,8 +194,8 @@ class GlobalLayerNorm(nn.Module):
         Returns:
             gLN_y: [M, N, K]
         """
-        # TODO: in torch 1.0, torch.mean() support dim list
-        mean = y.mean(dim=1, keepdim=True).mean(dim=2, keepdim=True) #[M, 1, 1]
+
+        mean = y.mean(dim=1, keepdim=True).mean(dim=2, keepdim=True) # [B, 1, 1]
         var = (torch.pow(y-mean, 2)).mean(dim=1, keepdim=True).mean(dim=2, keepdim=True)
         gLN_y = self.gamma * (y - mean) / torch.pow(var + 1e-7, 0.5) + self.beta
         return gLN_y
