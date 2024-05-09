@@ -13,7 +13,7 @@ This repository will contain all lectures, labs and project resources, code temp
 |    4    |   25.04  | _Convolutional Neural Networks_|     [slides](course/C4%20-%20CNNs.pdf)          |
 |    5    |   9.05   |_Recurrent Neural Networks_|               |
 |    6    |   23.05  |_Applications_ |               |
-|    -    |   Summer Session    |    **Written Exam**    |      |
+|    -    |   **16.06**    |    **Written Exam**    |      |
 
 **Labs** schedule:
 
