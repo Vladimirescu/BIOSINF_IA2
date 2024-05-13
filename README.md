@@ -24,7 +24,7 @@ This repository will contain all lectures, labs and project resources, code temp
 |    2    |   4.04   |           _CNNs_      |   [notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L2)            |
 |    3    |   18.04  | _Other Applications of CNNs_  |   [2 x notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L3)           |
 |    4    |   2.05   |         `Easter`        |               |
-|    5    |   16.05  |         _RNNs_          |       $\color{red} \text{In Progress..}$        |
+|    5    |   16.05  |         _RNNs_          |       [notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L4)        |
 
 ## Project:
 
