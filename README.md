@@ -46,11 +46,11 @@ additional packages not included in the ```lab_setup/requirements.txt```**
 | **Name** | **Date** |
 |:-------:|:--------:|
 |  Lab Homework(s) Submission Deadline  |  26.05  |
-|  Project Submission Deadline  |  29.05  |
-|  Project Presentations  |  30.05 & 31.05  |
+|  Project Submission Deadline  |  ~~29.05~~ 12.06  |
+|  Project Presentations  |  ~~30.05 & 31.05~~ 15.06  |
 ___
 
-Contact us if you have any questions via [ana_antonia.neacsu@upb.ro], [vlad.vasilescu2111@upb.ro], or by Teams chat.
+Contact us if you have any questions via [ana_antonia.neac**s**u@upb.ro], [vlad.vasilescu2111@upb.ro], or by Teams chat.
 
 ___
 
