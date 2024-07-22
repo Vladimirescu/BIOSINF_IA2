@@ -11,7 +11,7 @@ This repository will contain all lectures, labs and project resources, code temp
 |    2    |   28.03  | _Optimization Basics_ |   [slides](course/C2%20-%20LinearNets.pdf)            |
 |    3    |   11.04  | _Dense Neural Networks_ | [slides](course/C3%20-%20DNNs.pdf)              |
 |    4    |   25.04  | _Convolutional Neural Networks_|     [slides](course/C4%20-%20CNNs.pdf)          |
-|    5    |   9.05   |_Recurrent Neural Networks_|               |
+|    5    |   9.05   |_Recurrent Neural Networks_|          [slides](course/C5%20-%20RNNs.pdf)       |
 |    6    |   23.05  |_Applications_ |               |
 |    -    |   **16.06**    |    **Written Exam**    |      |
 
