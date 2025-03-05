@@ -1,4 +1,4 @@
-# ETTI, BIOSINF Course: *Artificial Intelligence II, Deep Learning Methods*, Spring 2024
+# ETTI, BIOSINF Course: *Artificial Intelligence II, Deep Learning Methods*, Spring 2025
 ___
 
 This repository will contain all lectures, labs and project resources, code templates and (maybe) some solutions.
@@ -7,12 +7,12 @@ This repository will contain all lectures, labs and project resources, code temp
 
 | **Nr.** | **Date** |       **Topic**       | **Materials** |
 |:-------:|:--------:|:---------------------:|:-------------:|
-|    1    |   6.03  |  _Intro & AI Ethics_  |   [slides](course/C1%20-%20Intro&Ethics.pdf)           |
-|    2    |  -  | _Optimization Basics_ |   [slides](course/C2%20-%20LinearNets.pdf)            |
-|    3    |  -   | _Dense Neural Networks_ | [slides](course/C3%20-%20DNNs.pdf)              |
-|    4    |  -   | _Convolutional Neural Networks_|     [slides](course/C4%20-%20CNNs.pdf)          |
-|    5    |   -  |_Recurrent Neural Networks_|          [slides](course/C5%20-%20RNNs.pdf)       |
-|    6    |  -  |_Applications_ |               |
+|    1    |   6.03  |  _Intro & AI Ethics_  |    |
+|    2    |  20.03  | _Optimization Basics_ |    |
+|    3    |  3.04   | _Dense Neural Networks_ |   |
+|    4    |  10.04   | _Convolutional Neural Networks_|        |
+|    5    |   8.05  |_Recurrent Neural Networks_|         |
+|    6    |  22.05  |_Applications_ |               |
 |    -    |   -    |    **Written Exam**    |      |
 
 ## Labs:
@@ -20,15 +20,15 @@ This repository will contain all lectures, labs and project resources, code temp
 | **Nr.** | **Date** |        **Topic**        | **Materials** |
 |:-------:|:--------:|:-----------------------:|:-------------:|
 |    0    |    -     |     _Lab Setup Guide_   |   [guide + requirements](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/lab_setup) |
-|    1    |   13.03  |           _DNNs_        |   [notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L1)            |
-|    2    |   -   |           _CNNs_      |   [notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L2)            |
-|    3    |   -  | _Other Applications of CNNs_  |   [2 x notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L3)           |
-|    4    |   -  |         _RNNs_          |       [notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L4)        |
+|    1    |   27.03  |           _DNNs_        |   [notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L1)            |
+|    2    |   17.04   |           _CNNs_      |   [notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L2)            |
+|    3    |   24.04  | _Other Applications of CNNs_  |   [2 x notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L3)           |
+|    4    |   15.05  |         _RNNs_          |       [notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L4)        |
 
 ## Project Rules:
 
 The requirements for completing your practical project, along with a list of available projects can be found [here](Project_IA2.pdf). 
-We'll be available for discussions regarding the status of your project every ___ 17:00-18:00.
+We'll be available for discussions regarding the status of your project every Thursday after Course / Lab.
 
 ## Lab Homework Rules:
 
@@ -48,15 +48,16 @@ additional packages.**
 
 | **Name** | **Date** |
 |:-------:|:--------:|
-|  Lab Homework(s) Submission Deadline  |  23:59 on the Wednesday before next lab  |
-|  Project Submission Deadline  |  -  |
-|  Project Presentations  |  -  |
+|  Lab Homework(s) Submission Deadline  |  2 weeks after the end of each lab  |
+|  Project Submission Deadline  |  25.05.2025, 23:59  |
+|  Project Presentations  |  29.05.2025  |
 ___
 
 Contact us if you have any questions via:
 - [ana_antonia.neacsu@upb.ro](mailto:ana_antonia.neacsu@upb.ro)
 - [vlad.vasilescu2111@upb.ro](mailto:vlad.vasilescu2111@upb.ro)
-- or make a post on the courses' Team
+
+or make a post on the courses' Team.
 
 ___
 
