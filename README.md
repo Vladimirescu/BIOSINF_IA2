@@ -48,8 +48,9 @@ additional packages.**
 
 | **Name** | **Date** |
 |:-------:|:--------:|
-|  Lab Homework(s) Submission Deadline  |  2 weeks after the end of each lab  |
-|  Project Submission Deadline  |  25.05.2025, 23:59  |
+|  Lab Homework(s) Submission  |  2 weeks after the end of each lab  |
+| Project Topic Selection | 13.03.2025, MS Teams Excel | 
+|  Project Submission  |  25.05.2025, 23:59  |
 |  Project Presentations  |  29.05.2025  |
 ___
 
