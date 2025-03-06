@@ -26,9 +26,10 @@ This repository will contain all lectures, labs and project resources, code temp
 |    4    |   15.05  |         _RNNs_          |       [notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L4)        |
 
 ## Project Rules:
-
+### 13 March - Q&A session for Project details.
+For the project the students can work in teams of 2 students. Each team should choose a project until **13 March**, which implies writing your name on the spreadsheet present in Teams - files.
 The requirements for completing your practical project, along with a list of available projects can be found [here](Project_IA2.pdf). 
-We'll be available for discussions regarding the status of your project every Thursday after Course / Lab.
+We'll be available for discussions regarding the status of your project every **Thursday after Course / Lab.**
 
 ## Lab Homework Rules:
 
