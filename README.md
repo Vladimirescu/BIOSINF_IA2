@@ -12,7 +12,7 @@ This repository will contain all lectures, labs and project resources, code temp
 |    3    |  3.04   | _Dense Neural Networks_ |   |
 |    4    |  10.04   | _Convolutional Neural Networks_|        |
 |    5    |   8.05  |_Recurrent Neural Networks_|         |
-|    6    |  22.05  |_Applications_ |               |
+|    6    |  22.05  |_Graph Neural Networks_ |               |
 |    -    |   -    |    **Written Exam**    |      |
 
 ## Labs:
