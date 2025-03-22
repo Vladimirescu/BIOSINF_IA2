@@ -21,14 +21,13 @@ def create_xor_dataset(num_samples_per_class=100, noise=0.1):
     """
     np.random.seed(42)
 
-    # Define the four centroids
+    # Define the four centroids, and associated labels
     centroids = np.array([
         [0, 0],
         [0, 1],
         [1, 0],
         [1, 1]
     ])
-
     labels = [0, 1, 1, 0]
     
     # Generate samples around each centroid
@@ -62,12 +61,10 @@ def plot_decision_boundary(model, dataloader, h=0.02):
     Returns:
     - None (displays the plot).
     """
-    # Assume unique class labels are integers
     unique_classes = np.unique([labels.item() for _, labels in dataloader.dataset])
 
     cmap_classes = ListedColormap(['#FFAAAA', '#AAAAFF', '#AAFFAA'])  # Background colors for classes
 
-    # Extract points from the DataLoader
     all_points = []
     for inputs, labels in dataloader:
         all_points.append(torch.cat((inputs, labels.view(-1, 1)), dim=1).numpy())
@@ -84,10 +81,8 @@ def plot_decision_boundary(model, dataloader, h=0.02):
     Z = np.argmax(Z, axis=1)
     Z = Z.reshape(xx.shape)
 
-    # Plot decision boundary with original class colors
+    # Plot decision boundary & individual points
     plt.contourf(xx, yy, Z, cmap=cmap_classes, alpha=0.3)
-
-    # Plot points with original class colors
     plt.scatter(all_points[:, 0], all_points[:, 1], c=all_points[:, 2], cmap=cmap_classes,
                 edgecolors='k', marker='o', s=30)
 
@@ -109,19 +104,16 @@ def plot_random_images(image_dataset, rows=1, columns=5):
     Returns:
     - None (displays the plot).
     """
-    # Calculate total number of images to plot
     num_images = rows * columns
 
-    # Get random indices for images
     random_indices = np.random.choice(len(image_dataset), num_images, replace=False)
 
-    # Plot images
     plt.figure(figsize=(15, 8))
     for i, idx in enumerate(random_indices):
         image, label = image_dataset[idx]
-        image = image.numpy().transpose((1, 2, 0))  # Transpose to (H, W, C) for matplotlib
+        image = image.numpy().transpose((1, 2, 0)) 
         plt.subplot(rows, columns, i + 1)
-        plt.imshow((image + 1) / 2)  # Rescale to [0, 1]
+        plt.imshow(image)  
         plt.title(f"{image_dataset.classes[label]}")
         plt.axis('off')
 
