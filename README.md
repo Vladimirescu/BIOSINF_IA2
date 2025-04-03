@@ -9,7 +9,7 @@ This repository will contain all lectures, labs and project resources, code temp
 |:-------:|:--------:|:---------------------:|:-------------:|
 |    1    |   6.03  |  _Intro & AI Ethics_  |  [slides](course/C1%20-%20Ethics.pdf)  |
 |    2    |  20.03  | _Optimization Basics & Linear Nets_ | [slides](course/C1%20-%20Linear%20Nets.pdf)   |
-|    3    |  3.04   | _Dense Neural Networks_ |   |
+|    3    |  3.04   | _Dense Neural Networks_ | [slides](course/C3%20-%20DNNs.pdf)   |
 |    4    |  10.04   | _Convolutional Neural Networks_|        |
 |    5    |   8.05  |_Recurrent Neural Networks_|         |
 |    6    |  22.05  |_Graph Neural Networks_ |               |
