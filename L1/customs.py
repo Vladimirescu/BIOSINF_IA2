@@ -28,3 +28,26 @@ class CustomLinear(nn.Module):
             return torch.matmul(x, self.W.t()) + self.bias
         else:
             return torch.matmul(x, self.W.t())
+
+
+class Linear4(nn.Module):
+    def __init__(self, in_size, out_size, bias=True, *args, **kwargs):
+
+        super().__init__(*args, *kwargs)
+
+        self.in_size = in_size
+        self.out_size = out_size
+        self.bias = bias
+
+        self.lin1 = nn.Linear(self.in_size, self.out_size)
+        self.lin2 = nn.Linear(self.out_size, self.out_size)
+        self.lin3 = nn.Linear(self.out_size, self.out_size)
+        self.lin4 = nn.Linear(self.out_size, self.out_size)
+
+    def forward(self, x):
+        h = self.lin1(x)
+        h = self.lin2(h)
+        h = self.lin3(h)
+        h = self.lin4(h)
+
+        return h
