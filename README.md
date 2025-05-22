@@ -12,8 +12,8 @@ This repository will contain all lectures, labs and project resources, code temp
 |    3    |  3.04   | _Dense Neural Networks_ | [slides](course/C3%20-%20DNNs.pdf)   |
 |    4    |  10.04   | _Convolutional Neural Networks_|   [slides](course/C4%20-%20CNNs.pdf)     |
 |    5    |   8.05  |_Recurrent Neural Networks_|   [slides](course/C5%20-%20RNNs.pdf)        |
-|    6    |  22.05  |_Graph Neural Networks_ |               |
-|    -    |   -    |    **Written Exam**    |      |
+|    6    |  22.05  |_Graph Neural Networks_ |       [slides](course/C6%20-%20GNNs.pdf)            |
+|    -    |   -    |    **Written Exam**    |  **13.06.2025** 16:00     |
 
 ## Labs:
 
@@ -51,7 +51,7 @@ additional packages.**
 |:-------:|:--------:|
 |  Lab Homework(s) Submission  |  2 weeks after the end of each lab  |
 | Project Topic Selection | 13.03.2025, MS Teams Excel | 
-|  Project Submission  |  25.05.2025, 23:59  |
+|  Project Submission  |  **❗❗Update❗❗** **27.05.2025**, 23:59  |
 |  Project Presentations  |  29.05.2025  |
 ___
 
