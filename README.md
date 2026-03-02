@@ -1,32 +1,31 @@
-# ETTI, BIOSINF Course: *Artificial Intelligence II, Deep Learning Methods*, Spring 2025
-___
+# ETTI, BIOSINF: *Artificial Intelligence II, Deep Learning Methods*, Spring 2026
 
 This repository will contain all lectures, labs and project resources, code templates and (maybe) some solutions.
 
 ## Courses:
 
-| **Nr.** | **Date** |       **Topic**       | **Materials** |
-|:-------:|:--------:|:---------------------:|:-------------:|
-|    1    |   6.03  |  _Intro & AI Ethics_  |  [slides](course/C1%20-%20Ethics.pdf)  |
-|    2    |  20.03  | _Optimization Basics & Linear Nets_ | [slides](course/C1%20-%20Linear%20Nets.pdf)   |
-|    3    |  3.04   | _Dense Neural Networks_ | [slides](course/C3%20-%20DNNs.pdf)   |
-|    4    |  10.04   | _Convolutional Neural Networks_|   [slides](course/C4%20-%20CNNs.pdf)     |
-|    5    |   8.05  |_Recurrent Neural Networks_|   [slides](course/C5%20-%20RNNs.pdf)        |
-|    6    |  22.05  |_Graph Neural Networks_ |       [slides](course/C6%20-%20GNNs.pdf)            |
-|    -    |   -    |    **Written Exam**    |  **13.06.2025** 16:00     |
+| **Nr.** | **Date** |       **Topic**       |
+|:-------:|:--------:|:---------------------:|
+|    1    |   3.03  |  _Intro & AI Ethics_  |  
+|    2    |  10.03  | _Optimization Basics & DNNs_ | 
+|    3    |  17.03   | _Convolutional Neural Networks_ |
+|    4    |  24.03   | _Recurrent Neural Networks_ |  
+|    5    |   3.04  | _Graph Neural Networks_ |  
+|    -    |  10.04  | **Project Presentations** |     
+|    -    |  12.04    | **Project Presentations** |  
 
 ## Labs:
 
-| **Nr.** | **Date** |        **Topic**        | **Materials** |
-|:-------:|:--------:|:-----------------------:|:-------------:|
-|    0    |    -     |     _Lab Setup Guide_   |   [guide + requirements](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/lab_setup) |
-|    1    |   27.03  |           _DNNs_        |   [notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L1)            |
-|    2    |   17.04   |           _CNNs_      |   [notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L2)            |
-|    3    |   24.04  | _Other Applications of CNNs_  |   [2 x notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L3)           |
-|    4    |   15.05  |         _RNNs_          |       [notebook + utils](https://github.com/Vladimirescu/BIOSINF_IA2/tree/main/L4)        |
+| **Nr.** | **Date** |        **Topic**        | 
+|:-------:|:--------:|:-----------------------:|
+|    0    |    -     | _Lab Setup Guide_ |   
+|    1    |   12.03  | _Intro_ +  _DNNs_ |   
+|    2    |   19.03   | _CNNs_ |   
+|    3    |   26.03  | _RNNs_ |   
+|    4    |   5.04  | _CNNs_ + _RNNs_ / Transformers |  
 
 ## Project Rules:
-### 13 March - Q&A session for Project details.
+### 5 March - Q&A session for Project details.
 For (some) projects, students can work in teams of 2. Each team should choose a project until **13 March**, which implies writing your name on the spreadsheet present in Teams - files.
 The requirements for completing your practical project, along with a list of available projects can be found [here](Project_IA2.pdf). 
 We'll be available for discussions regarding the status of your project every **Thursday after Course / Lab.**
@@ -50,9 +49,9 @@ additional packages.**
 | **Name** | **Date** |
 |:-------:|:--------:|
 |  Lab Homework(s) Submission  |  2 weeks after the end of each lab  |
-| Project Topic Selection | 13.03.2025, MS Teams Excel | 
-|  Project Submission  |  **❗❗Update❗❗** **27.05.2025**, 23:59  |
-|  Project Presentations  |  29.05.2025  |
+| Project Topic Selection | 10.03.2026, 23:59, @ MS Teams Excel | 
+|  Project Submission  |  9.04.2026, 23:59, @ Moddle Assignment  |
+|  Project Presentations  |  10.04.2026 / 12.04.2026, @ ETTI  |
 ___
 
 Contact us if you have any questions via:
