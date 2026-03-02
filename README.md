@@ -13,6 +13,7 @@ This repository will contain all lectures, labs and project resources, code temp
 |    5    |   3.04  | _Graph Neural Networks_ |  
 |    -    |  10.04  | **Project Presentations** |     
 |    -    |  12.04    | **Project Presentations** |  
+|    -    |  **TBD**    | **Exam** |  
 
 ## Labs:
 
