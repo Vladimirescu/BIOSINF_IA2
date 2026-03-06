@@ -4,16 +4,16 @@ This repository will contain all lectures, labs and project resources, code temp
 
 ## Courses:
 
-| **Nr.** | **Date** |       **Topic**       |
-|:-------:|:--------:|:---------------------:|
-|    1    |   3.03  |  _Intro & AI Ethics_  |  
-|    2    |  10.03  | _Optimization Basics & DNNs_ | 
-|    3    |  17.03   | _Convolutional Neural Networks_ |
-|    4    |  24.03   | _Recurrent Neural Networks_ |  
-|    5    |   3.04  | _Graph Neural Networks_ |  
-|    -    |  10.04  | **Project Presentations** |     
-|    -    |  12.04    | **Project Presentations** |  
-|    -    |  **TBD**    | **Exam** |  
+| **Nr.** | **Date** |       **Topic**       |**Materials** |
+|:-------:|:--------:|:---------------------:|:-------------:|
+|    1    |   3.03  |  _Intro & AI Ethics_  |  [slides](course/C0_-_Intro&Ethics.pdf)
+|    2    |  10.03  | _Optimization Basics & DNNs_ | |
+|    3    |  17.03   | _Convolutional Neural Networks_ | |
+|    4    |  24.03   | _Recurrent Neural Networks_ |  |
+|    5    |   3.04  | _Graph Neural Networks_ |  |
+|    -    |  10.04  | **Project Presentations** | |    
+|    -    |  12.04    | **Project Presentations** |  |  
+|    -    |  **TBD**    | **Exam** |    |
 
 ## Labs:
 
@@ -23,7 +23,7 @@ This repository will contain all lectures, labs and project resources, code temp
 |    1    |   12.03  | _Intro_ +  _DNNs_ |   
 |    2    |   19.03   | _CNNs_ |   
 |    3    |   26.03  | _RNNs_ |   
-|    4    |   2.04  | _CNNs_ + _RNNs_ / Transformers |  
+|    4    |   5.04  | _CNNs_ + _RNNs_ / Transformers |  
 
 ## Project Rules:
 ### 5 March - Q&A session for Project details.
