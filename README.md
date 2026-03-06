@@ -23,7 +23,7 @@ This repository will contain all lectures, labs and project resources, code temp
 |    1    |   12.03  | _Intro_ +  _DNNs_ |   
 |    2    |   19.03   | _CNNs_ |   
 |    3    |   26.03  | _RNNs_ |   
-|    4    |   5.04  | _CNNs_ + _RNNs_ / Transformers |  
+|    4    |   2.04  | _CNNs_ + _RNNs_ / Transformers |  
 
 ## Project Rules:
 ### 5 March - Q&A session for Project details.
@@ -49,10 +49,10 @@ additional packages.**
 
 | **Name** | **Date** |
 |:-------:|:--------:|
-|  Lab Homework(s) Submission  |  2 weeks after the end of each lab  |
+|  Lab Homework(s) Submission  |  6.04.2026, 23:59  |
 | Project Topic Selection | 10.03.2026, 23:59, @ MS Teams Excel | 
-|  Project Submission  |  9.04.2026, 23:59, @ Moddle Assignment  |
-|  Project Presentations  |  10.04.2026 / 12.04.2026, @ ETTI  |
+|  Project Submission  |  6.04.2026, 23:59, @ Moddle Assignment  |
+|  Project Presentations  |  7.04.2026 / 9.04.2026, @ ETTI  |
 ___
 
 Contact us if you have any questions via:
