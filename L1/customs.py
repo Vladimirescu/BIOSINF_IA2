@@ -8,7 +8,7 @@ class CustomLinear(nn.Module):
     """
     def __init__(self, in_size, out_size, bias=True, *args, **kwargs):
 
-        super().__init__(*args, *kwargs)
+        super().__init__(*args, **kwargs)
 
         self.in_size = in_size
         self.out_size = out_size
